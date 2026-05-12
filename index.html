@@ -366,56 +366,8 @@
 
     <section class="final-writing">
         <h2><span style="background: var(--accent-color); color: white; padding: 8px 12px; border-radius: 8px; font-weight: bold; font-size: 0.9rem; min-width: 30px; text-align: center; display: inline-block; margin-left: 10px; font-family: 'IBMPlexSansArabic', sans-serif;">9</span>  كتابة المادة</h2>
-أهلاً بك. لقد قمت بتحليل اللون الأزرق الفاتح من الصورة (وهو لون سماوي مشرق) وطبقته على العبارات المطلوبة داخل كود HTML.
 
-لقد قمت بوضع العبارات "الفقرة الأولى:" وما شابهها داخل وسم `<span>` وطبقت اللون عليها باستخدام CSS مدمج، مع إبقائها بخط عريض لتبدو كعناوين جانبية.
-
-إليك الكود المحدث:
-
-```html
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تنسيق فقرات التحقيق مع تلوين</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        /* الفئة الخاصة بتلوين العبارات */
-        .paragraph-label {
-            color: #00BBEE; /* اللون الأزرق الفاتح من الصورة */
-            font-weight: bold; /* لإبقائها عريضة */
-        }
-    </style>
-</head>
-<body>
-
-    <p><span class="paragraph-label">الفقرة الأولى:</span> ابدأ بالجديد الذي يمثل معلومة أو صدمة بناء على نتائج البيانات التي قمت بتحليلها. وقم بتأجيل الخلفيات لاحقا.</p>
-
-    <p><span class="paragraph-label">الفقرة الثانية:</span> استعراض مصدر/مصادر المعلومات والبيانات الأساسي الذي اعتمد عليه التحقيق وكيف تعاملنا معه، وتحديد الفترة الزمنية المرصودة في التحقيق.</p>
-
-    <p><span class="paragraph-label">الفقرة الثالثة:</span> قم بشرح الجديد في هذا التحقيق مقارنة مع ما سبق.</p>
-
-    <p><span class="paragraph-label">الفقرة الرابعة:</span> قم بإيضاح لماذا هذا التقرير مهم.</p>
-
-    <p><span class="paragraph-label">الفقرة الخامسة:</span> عبارة عن فقرة واحدة تلخص منهجية عمل المادة بشكل مختصر.</p>
-
-</body>
-</html>
-
-```
-
-وإذا كنت تريد نسخ الفقرات فقط مع الأنماط المدمجة (إضافة الستايل مباشرة داخل الوسم) دون هيكل الصفحة الكامل، يمكنك استخدام هذا الجزء:
-
-```html
-<p><span style="color: #00BBEE; font-weight: bold;">الفقرة الأولى:</span> ابدأ بالجديد الذي يمثل معلومة أو صدمة بناء على نتائج البيانات التي قمت بتحليلها. وقم بتأجيل الخلفيات لاحقا.</p>
+        <p><span style="color: #00BBEE; font-weight: bold;">الفقرة الأولى:</span> ابدأ بالجديد الذي يمثل معلومة أو صدمة بناء على نتائج البيانات التي قمت بتحليلها. وقم بتأجيل الخلفيات لاحقا.</p>
 
 <p><span style="color: #00BBEE; font-weight: bold;">الفقرة الثانية:</span> استعراض مصدر/مصادر المعلومات والبيانات الأساسي الذي اعتمد عليه التحقيق وكيف تعاملنا معه، وتحديد الفترة الزمنية المرصودة في التحقيق.</p>
 
@@ -424,9 +376,8 @@
 <p><span style="color: #00BBEE; font-weight: bold;">الفقرة الرابعة:</span> قم بإيضاح لماذا هذا التقرير مهم.</p>
 
 <p><span style="color: #00BBEE; font-weight: bold;">الفقرة الخامسة:</span> عبارة عن فقرة واحدة تلخص منهجية عمل المادة بشكل مختصر.</p>
-
-```
-    <p>ثم بقية المادة بحسب المنهجية ومحاور المادة وعناوينها الرئيسية</p>
+        
+        <p>ثم بقية المادة بحسب المنهجية ومحاور المادة وعناوينها الرئيسية</p>
         <div style="text-align: center; margin-top: 20px; font-size: 1.2rem; color: var(--primary-color); font-weight: bold;">بالتوفيق</div>
     </section>
 
